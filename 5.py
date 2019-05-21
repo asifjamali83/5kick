@@ -15,33 +15,33 @@ parser.add_argument('-T', '--traceback', type=str2bool, nargs='?', default=False
 parser.add_argument('-S', '--showqr', type=str2bool, nargs='?', default=False, metavar='', required=False, const=True, choices=[True, False], help='Show QR | Use : True/False')
 args = parser.parse_args()
 
-# Login line
-line = LINE('')
+Login line
+line = LINE('EFrLvsLrPrRt0BcMNcp8.FPNfS/tWhjxbbnczp8qzMa.ao8HhJRl9jGTebdgQSgnJATmgFI+1nwrBcFWZRYoemM=')
 print ("===============[ADMIN LOGIN]===============\n")
 print ('++ Auth Token : %s' % line.authToken)
-kicker = LINE('')
+kicker = LINE('EFVYe8wUsUf8aObxZwZa.RqXlEuMyCo0SX+f7rAWbUG.40/nDFYYYfEj/IdeqJKVmLWw7TGF41bCcjxkrTTkOn0=')
 print ('++ Auth Token : %s' % kicker.authToken)
 print ("===============[KICKER LOGIN NOSELF TOKEN]===============\n")
-kicker2 = LINE('')
+kicker2 = LINE('EFcZfdEupGGCD1fIsbW8.V9fPQ4Ni715zhNxzTDLx/a.gQInzheF7+eRQSpQ0tw79AmAWgVlYZxec8v6M+4pZqs=')
 print ('++ Auth Token : %s' % kicker2.authToken)
 print ("===============[KICKER 2 LOGIN SUKSES]===============\n")
-kicker3 = LINE('')
+kicker3 = LINE('EFVqMTso9nRbq1jj1zA7.4ciXpOp+ngV1ye23dcM5vW.QrGHXZc+stlykq7OzEoPjMj93PtwU2gOs+21wJuJ5s4=')
 print ('++ Auth Token : %s' % kicker3.authToken)
 print ("===============[KICKER 3 LOGIN SUKSES]===============\n")
-kicker4 = LINE('')
+kicker4 = LINE('EFejClln462ICZstchP9.sq7xakrN1v28/yW8CSq42q.yMvO9Sd9bkT5a/9OlaUdbKC72P2u8yTl/Dm3vMwEf+k=')
 print ('++ Auth Token : %s' % kicker4.authToken)
 print ("===============[KICKER 4 LOGIN SUKSES]===============\n")
-kicker5 = LINE('')
+kicker5 = LINE('EFxAd6jWgD40anlvRcPa.uA70OmZ6xGXhLjifkBHlgG.wAstE1ByXCfJxtTUvsS+fGtnDJXx6FcFFQ6mAcLA6EY=')
 print ('++ Auth Token : %s' % kicker5.authToken)
 print ("===============[KICKER 5 LOGIN SUKSES]===============\n")
-g1 = LINE('')
+g1 = LINE('EFKuytqY5vtJChyBwlpb.bAXEGo6vXQI0VRhomlb3MW.fxU/bsmFUrNzO5xJc7LVYcWNiTfz387SaRO9+c0DXg0=')
 print ("===============[ GHOST LOGIN SUKSES]===============\n")
 
 myMid = line.profile.mid
-creator = ["u47d41cc45c4576282d0c52ce4d5b5856"]
-owner = ["u47d41cc45c4576282d0c52ce4d5b5856"]
-admin = ["u47d41cc45c4576282d0c52ce4d5b5856"]
-staff = ["u47d41cc45c4576282d0c52ce4d5b5856"]
+creator = ["u7e99c5b3e4f01c95c104d0993fc41998"]
+owner = ["u7e99c5b3e4f01c95c104d0993fc41998"]
+admin = ["u7e99c5b3e4f01c95c104d0993fc41998"]
+staff = ["u7e99c5b3e4f01c95c104d0993fc41998"]
 Amid = kicker.getProfile().mid
 Bmid = kicker2.getProfile().mid
 Cmid = kicker3.getProfile().mid
